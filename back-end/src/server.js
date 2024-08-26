@@ -6,10 +6,10 @@ require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
 
 // temp vv
 
-const { PORT = 5001, NODE_ENV = "development" } = process.env;
+const { PORT = 5001, NODE_ENV = "production" } = process.env;
 
 console.log(`Running in ${NODE_ENV} mode`);
-console.log("Database URL:", process.env.DATABASE_URL_DEVELOPMENT); // Adjust based on current mode
+console.log("Database URL:", process.env.DATABASE_URL); // Adjust based on current mode
 
 // temp ^^
 
