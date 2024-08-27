@@ -1,6 +1,6 @@
 # TableFlow
 
-**Live Application:** [Periodic Tables](https://reservation-restaurant-jkbn.onrender.com)
+**Live Application:** [TableFlow](https://reservation-restaurant-jkbn.onrender.com)
 
 ## Summary
 
