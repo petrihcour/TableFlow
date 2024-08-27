@@ -1,41 +1,62 @@
-# Periodic Tables
+# TableFlow
 
 **Live Application:** [Periodic Tables](https://reservation-restaurant-jkbn.onrender.com)
 
 ## Summary
 
-Periodic Tables is a reservation system designed for fine dining restaurants, empowering restaurant managers to efficiently handle reservations, manage tables, and elevate the overall dining experience. The application supports key features such as reservation creation, editing, cancellation, and table seating for guests.
+TableFlow is a reservation system designed for fine dining restaurants, empowering restaurant managers to efficiently handle reservations, manage tables, and elevate the overall dining experience. The application supports key features such as reservation creation, editing, cancellation, and table seating for guests. It's also responsive to mobile devices.
 
 ### User Case & Research
-The user stories defined the scope of the project, addressing the needs of restaurant managers. Research into industry-standard practices for reservation systems and feedback from potential users informed the design and functionality of Periodic Tables.
 
+The user stories defined the scope of the project, addressing the needs of restaurant managers. Research into industry-standard practices for reservation systems and feedback from potential users informed the design and functionality of TableFlow.
 
 ---
 
-## Screenshot Demo
-#### Create and Manage Reservations
-![Create a Reservation](/images/image-2.png)
+## Screenshots
 
-#### Dashboard Overview - Reservations for January 27, 2024
-![Dashboard showing reservations for today and tables](/images/image-1.png)
+#### Create and Manage Reservations
+![Create a Reservation](images/image.png)
+
+#### Dashboard Overview 
+
+##### Reservations for August 28, 2024
+
+![Dashboard showing reservations](images/image-1.png)
+
+##### Tables
+
+![Dashbaord showing tables](images/image-2.png)
 
 #### Edit Existing Reservation
-![Edit a Reservation](/images/image-3.png)
+![Edit a reservation page](images/image-3.png)
 
 #### Search Reservations by Phone Number
-![Search](/images/image-4.png)
+![Search by phone number page](images/image-4.png)
 
-![Search Completed](/images/image-5.png)
+##### Search Completed
 
-#### Seat a Guest and Manage Reservations
-![Select a table](/images/image-6.png)
+![Search Completed](images/image-5.png)
+
+##### Search With No Results
+![Seach with no results](images/image-6.png)
+
+#### Seat a Guest
+![Seat a guest page](images/image-7.png)
+![Select a table](images/image-8.png)
 
 #### Cancel Reservation and Finish Dining
-![Cancel Reservation](/images/image-7.png)
 
-![Finish Reservation](/images/image-8.png)
+##### Cancel Reservation
+![Cancel a reservation](images/image-9.png)
 
-![Final Dashboard View](/images/image-9.png)
+##### Finish Reservation
+
+![Finish reservation](images/image-10.png)
+
+##### Final Dashboard View
+
+![Final Dashbord view 1](images/image-11.png)
+![Final Dashboard view 2](images/image-12.png)
 
 ---
 
@@ -151,8 +172,10 @@ The following provides an overview of the API endpoints used in the frontend of 
 6. Run `npm install` to install project dependencies.
 7. Run `npm run start:dev` to start your server in development mode.
 
+- Note: Must be using Node version 16.20.2 or older. `nvm use 16.20.2`
+
 ## Future Goals
-In the next phases of building Periodic Tables, I'm excited to: 
+In the next phases of building TableFlow, I'm excited to: 
 
 I. **Fine-Tuning Validation:** enhance validation checks to ensure that only accurate and valid reservation data makes its way into the system. This will help maintain data integrity and reliability.
 
